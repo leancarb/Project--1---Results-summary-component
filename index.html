@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="result">
+        <div class="result__title">Your Result</div>
+        <div class="result__score">
+          <div class="result__score-number">76</div>
+          <div class="result__score-out-of">of 100</div>
+        </div>
+        <div class="result__score-text">Great</div>
+        <div class="result__paragraph">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div class="summary">
+        <div class="summary__title">Summary</div>
+
+        <div class="summary__container">
+          <div class="summary__category reaction">
+            <div>
+              <img src="assets/images/icon-reaction.svg" alt="reaction icon" />
+              <p class="category">Reaction</p>
+            </div>
+            <div>
+              <p class="out-of"><span>80</span> / 100</p>
+            </div>
+          </div>
+          <div class="summary__category memory">
+            <div>
+              <img src="assets/images/icon-memory.svg" alt="memory icon" />
+              <p class="category">Memory</p>
+            </div>
+            <div>
+              <p class="out-of"><span>92</span> / 100</p>
+            </div>
+          </div>
+          <div class="summary__category verbal">
+            <div>
+              <img src="assets/images/icon-verbal.svg" alt="verbal icon" />
+              <p class="category">Verbal</p>
+            </div>
+            <div>
+              <p class="out-of"><span>61</span> / 100</p>
+            </div>
+          </div>
+          <div class="summary__category visual">
+            <div>
+              <img src="assets/images/icon-visual.svg" alt="visual icon" />
+              <p class="category">Visual</p>
+            </div>
+            <div>
+              <p class="out-of"><span>72</span> / 100</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary__btn">Continue</div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://lean.ar/">Leandro Carbonetti</a>.
+      </div>
+    </footer>
+  </body>
+</html>
